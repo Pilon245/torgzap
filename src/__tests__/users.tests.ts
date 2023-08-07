@@ -7,7 +7,7 @@ describe('API Tests', () => {
         expect(response.status).toBe(200);
     });
 
-    let user: any = {}
+    let user: any
 
     it('Create User', async () => {
         const newUser = { name: 'John', email: 'john@example.com', age: 10, password: "124567890" };
